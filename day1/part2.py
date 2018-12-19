@@ -1,4 +1,4 @@
-from part1 import parse
+from utils.parse import parse_to_int as parse
 from itertools import cycle
 
 def get_first_duplicate(input):
